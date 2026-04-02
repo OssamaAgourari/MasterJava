@@ -35,7 +35,6 @@ public class StringChallenge {
     // =========================================================
     static String reverseString(String s) {
         // TODO: write your solution here
-
         return "";
     }
 
@@ -54,8 +53,7 @@ public class StringChallenge {
     // =========================================================
     static boolean isPalindrome(String s) {
         // TODO: write your solution here
-
-        return false;
+        return true;
     }
 
     // =========================================================
@@ -72,26 +70,27 @@ public class StringChallenge {
     //   Input:  "rhythm"       → 0
     // =========================================================
     static int countVowels(String s) {
-
         // TODO: write your solution here
-
-        // =========================================================
-        // CHALLENGE 4  [EASY]
-        // =========================================================
-        // First Non-Repeating Character
-        //
-        // Return the index of the first character that does not repeat.
-        // Return -1 if all characters repeat.
-        //
-        // Example:
-        //   Input:  "leetcode"   → 0  ('l')
-        //   Input:  "loveleetcode" → 2  ('v')
-        //   Input:  "aabb"       → -1
-        // =========================================================
-
+        return -1;
     }
+
+    // =========================================================
+    // CHALLENGE 4  [EASY]
+    // =========================================================
+    // First Non-Repeating Character
+    //
+    // Return the index of the first character that does not repeat.
+    // Return -1 if all characters repeat.
+    //
+    // Example:
+    //   Input:  "leetcode"   → 0  ('l')
+    //   Input:  "loveleetcode" → 2  ('v')
+    //   Input:  "aabb"       → -1
+    // =========================================================
     static int firstUniqueChar(String s) {
         // TODO: write your solution here
+        return -1;
+    }
 
     // =========================================================
     // CHALLENGE 5  [EASY]
@@ -105,8 +104,10 @@ public class StringChallenge {
     //   Input:  "Hello World"       → 2
     //   Input:  "  Java  is  fun  " → 3
     //   Input:  ""                  → 0
-
-
+    // =========================================================
+    static int countWords(String s) {
+        // TODO: write your solution here
+        return 0;
     }
 
     // =========================================================
@@ -135,6 +136,9 @@ public class StringChallenge {
         //   → if lengths differ first, return false immediately.
         //
         // import java.util.Arrays;  ← add this at the top if needed.
+
+
+        return true;
 
 
 
