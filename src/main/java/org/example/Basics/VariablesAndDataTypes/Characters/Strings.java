@@ -11,7 +11,17 @@ package org.example.Basics.VariablesAndDataTypes.Characters;
  * - In Java, String is an OBJECT (not a primitive type), defined in java.lang.String.
  * - Strings are IMMUTABLE: once created, their value cannot be changed.
  *   Any modification creates a NEW String object.
+ *
+ *            String s = "hello";
+ *            s = s + " world"; // creates a NEW object, doesn't modify "hello"
+ *
  * - String literals are stored in the "String Pool" (heap memory optimization).
+ *
+ *      String a = "hello";
+ *      Java checks:
+ *              ➡️ “Do I already have "hello" in the pool?”
+ *          ✅ If YES → reuse it
+ *          ❌ If NO → create it and store it
  *
  * DECLARATION WAYS:
  * -----------------
@@ -114,6 +124,8 @@ package org.example.Basics.VariablesAndDataTypes.Characters;
  */
 public class Strings {
     public static void main(String[] args) {
+
+        String myName = "Agourari Ossama";
 
         // --------------------------------------------------------
         // BASIC DECLARATION
