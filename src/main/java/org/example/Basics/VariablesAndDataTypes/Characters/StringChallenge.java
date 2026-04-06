@@ -193,25 +193,8 @@ public class StringChallenge {
     //   Input:  "aaaa"         → "a4"
     // =========================================================
     static String compressString(String s) {
-        // HINT: Walk through the string counting consecutive equal characters.
-        //
-        // APPROACH:
-        //   Step 1: use a StringBuilder for the result
-        //   Step 2: start count = 1, loop from index 1 to end
-        //           - if s.charAt(i) == s.charAt(i-1) → count++
-        //           - else → append previous char + (count > 1 ? count : ""), reset count = 1
-        //   Step 3: after the loop, don't forget to append the last char+count
-        //   Step 4: if result.length() >= s.length() → return s (no benefit)
-        //
-        // Example trace "aabccc":
-        //   i=1: 'a'=='a' → count=2
-        //   i=2: 'b'!='a' → append "a2", count=1
-        //   i=3: 'c'!='b' → append "b",  count=1
-        //   i=4: 'c'=='c' → count=2
-        //   i=5: 'c'=='c' → count=3
-        //   end           → append "c3"  →  result = "a2bc3"
-
         // TODO: write your solution here
+
 
         return "";
     }
