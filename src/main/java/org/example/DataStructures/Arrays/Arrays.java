@@ -41,7 +41,7 @@ import java.util.List;
  *   arr[arr.length-1] → last element
  *   Arrays are objects — passed by reference
  *   Arrays.sort()  → in-place sort, O(n log n)
- *
+ *   Arrays.sort() changs the original array (yes / no ) : the answer is no
  * WHEN TO USE ARRAYS:
  * --------------------
  *   ✔ Need O(1) access by index

@@ -14,7 +14,13 @@ public class ArraysChallenge {
     // =========================================================
     static int findMax(int[] arr) {
         // TODO
-        return Integer.MIN_VALUE;
+        int max = arr[0];
+        for (int i = 1; i < arr.length; i++){
+            if(max < arr[i]){
+                max = arr[i];
+            }
+        }
+        return max;
     }
 
     // =========================================================
@@ -67,7 +73,14 @@ public class ArraysChallenge {
     // Hint: reverse trick in O(n) time, O(1) space
     // =========================================================
     static void rotate(int[] nums, int k) {
-        // TODO
+        int l = nums.length;
+        for (int i = 0; i < k; i++) {
+            int last = nums[l-1];
+            for (int j = l-1; j > 0; j--) {
+                nums[j] = nums[j-1];
+            }
+            nums[0] = last;
+        }
     }
 
     // =========================================================
