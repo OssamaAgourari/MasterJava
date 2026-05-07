@@ -19,6 +19,7 @@ import java.util.*;
  *      lo = 0, hi = n-1; move inward
  *      Use: Two Sum (sorted), reverse, palindrome, container with water
  *
+ *
  *   2. SAME DIRECTION (fast/slow)
  *      slow and fast both start at 0
  *      Use: remove duplicates, cycle detection, Kth from end
